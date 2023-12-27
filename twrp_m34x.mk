@@ -7,16 +7,16 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from m34x device
 $(call inherit-product, device/samsung/m34x/device.mk)
 
 PRODUCT_DEVICE := m34x
-PRODUCT_NAME := omni_m34x
+PRODUCT_NAME := twrp_m34x
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-M346B2
 PRODUCT_MANUFACTURER := samsung
