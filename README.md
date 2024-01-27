@@ -1,10 +1,9 @@
-# Android device tree for samsung SM-M346B2 (m34x)
+## Recovery Device Tree for the Samsung Galaxy A53 5G (Exynos)
 
-```
-#
-# Copyright (C) 2023 The Android Open Source Project
-# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
-#
-# SPDX-License-Identifier: Apache-2.0
-#
+## How-to compile it:
+
+```sh
+. build/envsetup.sh
+lunch twrp_a53x-eng
+make recoveryimage
 ```
