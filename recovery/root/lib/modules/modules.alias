@@ -42,11 +42,13 @@ alias of:N*T*Carm,mali-midgard mali_kbase
 alias of:N*T*Carm,mali-midgardC* mali_kbase
 alias of:N*T*Carm,mali-bifrost mali_kbase
 alias of:N*T*Carm,mali-bifrostC* mali_kbase
+alias of:N*T*Csamsung,exynos-is-cis-hi1339 is_cis_hi1339
+alias of:N*T*Csamsung,exynos-is-cis-hi1339C* is_cis_hi1339
+alias of:N*T*Csamsung,scsc_bt_qos scsc_bt
+alias of:N*T*Csamsung,scsc_bt_qosC* scsc_bt
 alias platform:samsung-slif snd_soc_samsung_slif
 alias of:N*T*Csamsung,slif snd_soc_samsung_slif
 alias of:N*T*Csamsung,slifC* snd_soc_samsung_slif
-alias of:N*T*Chall_ic hall_ic
-alias of:N*T*Chall_icC* hall_ic
 alias platform:samsung-spmi-gpio pinctrl_samsung_s2mpu13
 alias of:N*T*Cs2mpu13-gpio pinctrl_samsung_s2mpu13
 alias of:N*T*Cs2mpu13-gpioC* pinctrl_samsung_s2mpu13
@@ -90,8 +92,11 @@ alias of:N*T*Csamsung,s5e8825-v2-wdt s3c2410_wdt
 alias of:N*T*Csamsung,s5e8825-v2-wdtC* s3c2410_wdt
 alias platform:s3c2410-wdt s3c2410_wdt
 alias i2c:sm5451-charger sm5451_charger
+alias i2c:sm5451-charger-sub sm5451_charger
 alias of:N*T*Csiliconmitus,sm5451 sm5451_charger
 alias of:N*T*Csiliconmitus,sm5451C* sm5451_charger
+alias of:N*T*Csiliconmitus,sm5451-sub sm5451_charger
+alias of:N*T*Csiliconmitus,sm5451-subC* sm5451_charger
 alias hid:b0003g*v0000050Dp00003201 hid_belkin
 alias hid:b0003g*v00001020p00000006 hid_belkin
 alias platform:exynos-uart exynos_tty
@@ -103,6 +108,8 @@ alias of:N*T*Csamsung,exynos-itmon exynos_itmon
 alias of:N*T*Csamsung,exynos-itmonC* exynos_itmon
 alias of:N*T*Csamsung,exynos-tzasc exynos_tzasc
 alias of:N*T*Csamsung,exynos-tzascC* exynos_tzasc
+alias of:N*T*Csamsung,exynos-is-cis-gc02m2 is_cis_gc02m2
+alias of:N*T*Csamsung,exynos-is-cis-gc02m2C* is_cis_gc02m2
 alias i2c:sm5714 mfd_sm5714
 alias of:N*T*Csiliconmitus,sm5714mfd mfd_sm5714
 alias of:N*T*Csiliconmitus,sm5714mfdC* mfd_sm5714
@@ -233,8 +240,6 @@ alias of:N*T*Csamsung,sensor-module fimc_is
 alias of:N*T*Csamsung,sensor-moduleC* fimc_is
 alias of:N*T*Csamsung,exynos-cpuhp exynos_cpuhp
 alias of:N*T*Csamsung,exynos-cpuhpC* exynos_cpuhp
-alias of:N*T*Csamsung,exynos-is-cis-gd2 is_cis_gd2
-alias of:N*T*Csamsung,exynos-is-cis-gd2C* is_cis_gd2
 alias of:N*T*Csamsung,exynos-camerapp-votf votf
 alias of:N*T*Csamsung,exynos-camerapp-votfC* votf
 alias platform:exynos-dm exynos_dm
@@ -244,6 +249,9 @@ alias of:N*T*Csamsung,exynos-ecc-handler exynos_ecc_handler
 alias of:N*T*Csamsung,exynos-ecc-handlerC* exynos_ecc_handler
 alias of:N*T*Csamsung,exynos-s2mpu exynos_s2mpu
 alias of:N*T*Csamsung,exynos-s2mpuC* exynos_s2mpu
+alias platform:s610-radio fm_s620
+alias of:N*T*Csamsung,exynos8825-fm fm_s620
+alias of:N*T*Csamsung,exynos8825-fmC* fm_s620
 alias of:N*T*Csamsung,exynos4210-mct exynos_mct
 alias of:N*T*Csamsung,exynos4210-mctC* exynos_mct
 alias of:N*T*Csamsung,exynos4412-mct exynos_mct
@@ -374,16 +382,13 @@ alias of:N*T*Csamsung,exynos-devfreq exynos_devfreq
 alias of:N*T*Csamsung,exynos-devfreqC* exynos_devfreq
 alias of:N*T*Csamsung,exynos-npu npu
 alias of:N*T*Csamsung,exynos-npuC* npu
-alias of:N*T*Csamsung,exynos-is-cis-gc5035 is_cis_gc5035
-alias of:N*T*Csamsung,exynos-is-cis-gc5035C* is_cis_gc5035
-alias of:N*T*Csamsung,exynos-is-cis-gc5035-macro is_cis_gc5035
-alias of:N*T*Csamsung,exynos-is-cis-gc5035-macroC* is_cis_gc5035
 alias hid:b0003g*v000004B4p0000DE61 hid_cypress
 alias hid:b0003g*v000004B4p0000DE64 hid_cypress
 alias hid:b0003g*v000004B4p0000BCA1 hid_cypress
 alias hid:b0003g*v000004B4p0000ED81 hid_cypress
 alias hid:b0003g*v000004B4p00000001 hid_cypress
 alias hid:b0003g*v000004B4p000007B1 hid_cypress
+alias i2c:grip_sensor a96t396
 alias platform:s2mpu13 Power key s2mpu13_key
 alias of:N*T*Cs2mpu13-power-keys s2mpu13_key
 alias of:N*T*Cs2mpu13-power-keysC* s2mpu13_key
@@ -424,8 +429,6 @@ alias of:N*T*Csamsung,exynos-afmC* exynos_afm
 alias hid:b0003g*v000004F2p00000418 hid_chicony
 alias hid:b0003g*v000004F2p00001123 hid_chicony
 alias hid:b0003g*v000004F2p00001421 hid_chicony
-alias of:N*T*Cgoodix,gw9558x fingerprint
-alias of:N*T*Cgoodix,gw9558xC* fingerprint
 alias hid:b0003g*v0000046Ap00000023 hid_cherry
 alias hid:b0003g*v0000046Ap00000027 hid_cherry
 alias of:N*T*Csamsung,exynos-decon exynos_drm
@@ -491,9 +494,6 @@ alias of:N*T*Csamsung,mipi-phy-m4m4-mod phy_exynos_mipi_dsim
 alias of:N*T*Csamsung,mipi-phy-m4m4-modC* phy_exynos_mipi_dsim
 alias of:N*T*Csamsung,mipi-phy-m4s0 phy_exynos_mipi_dsim
 alias of:N*T*Csamsung,mipi-phy-m4s0C* phy_exynos_mipi_dsim
-alias platform:exynos8825-sound exynos8825_audio
-alias of:N*T*Csamsung,exynos8825-audio exynos8825_audio
-alias of:N*T*Csamsung,exynos8825-audioC* exynos8825_audio
 alias of:N*T*Csamsung,exynos-migov exynos_migov
 alias of:N*T*Csamsung,exynos-migovC* exynos_migov
 alias platform:exynos-bcm_dbg exynos_bcm
@@ -604,8 +604,8 @@ alias of:N*T*Cxhci-platform xhci_exynos
 alias of:N*T*Cxhci-platformC* xhci_exynos
 alias of:N*T*Csamsung,sec-battery sec_battery
 alias of:N*T*Csamsung,sec-batteryC* sec_battery
-alias of:N*T*Csamsung,exynos-is-cis-imx682 is_cis_imx682
-alias of:N*T*Csamsung,exynos-is-cis-imx682C* is_cis_imx682
+alias of:N*T*Csamsung,exynos-is-cis-jn1 is_cis_jn1
+alias of:N*T*Csamsung,exynos-is-cis-jn1C* is_cis_jn1
 alias platform:exynos-audss-clk clk_exynos_audss
 alias of:N*T*Csamsung,exynos4210-audss-clock clk_exynos_audss
 alias of:N*T*Csamsung,exynos4210-audss-clockC* clk_exynos_audss
@@ -658,6 +658,9 @@ alias usb:v0BDBp*d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v12D1p*d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v03F0pA31Dd*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v1BC7p1041d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
+alias usb:v1BC7p1061d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
+alias usb:v1BC7p1071d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
+alias usb:v1BC7p1081d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v*p*d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias hid:b0003g*v00000566p00003004 hid_monterey
 alias of:N*T*Csamsung,exynos-dsufreq exynos_dsufreq
@@ -672,6 +675,9 @@ alias usb:v17EFp304Bd*dc*dsc*dp*ic*isc*ip*in* ax88179_178a
 alias usb:v050Dp0128d*dc*dsc*dp*ic*isc*ip*in* ax88179_178a
 alias usb:v0930p0A13d*dc*dsc*dp*ic*isc*ip*in* ax88179_178a
 alias usb:v0711p0179d*dc*dsc*dp*ic*isc*ip*in* ax88179_178a
+alias i2c:rt5691 snd_soc_rt5691
+alias of:N*T*Crealtek,rt5691 snd_soc_rt5691
+alias of:N*T*Crealtek,rt5691C* snd_soc_rt5691
 alias hid:b0003g*v000004FCp000005D8 hid_sunplus
 alias of:N*T*Csamsung,exynos-cpupm exynos_cpupm
 alias of:N*T*Csamsung,exynos-cpupmC* exynos_cpupm
@@ -682,8 +688,6 @@ alias of:N*T*Caltr,socfpga-dw-mshc dw_mmc_pltfm
 alias of:N*T*Caltr,socfpga-dw-mshcC* dw_mmc_pltfm
 alias of:N*T*Cimg,pistachio-dw-mshc dw_mmc_pltfm
 alias of:N*T*Cimg,pistachio-dw-mshcC* dw_mmc_pltfm
-alias of:N*T*Csamsung,exynos-is-cis-imx616 is_cis_imx616
-alias of:N*T*Csamsung,exynos-is-cis-imx616C* is_cis_imx616
 alias of:N*T*Csamsung,exynos_cal_if cmupmucal
 alias of:N*T*Csamsung,exynos_cal_ifC* cmupmucal
 alias of:N*T*Csamsung,exynos-acpm-dvfs cmupmucal
@@ -700,8 +704,6 @@ alias of:N*T*Csamsung,exynos5-scaler scaler
 alias of:N*T*Csamsung,exynos5-scalerC* scaler
 alias of:N*T*Cs2mpu13-gpadc s2mpu13_adc
 alias of:N*T*Cs2mpu13-gpadcC* s2mpu13_adc
-alias of:N*T*Csamsung,exynos-is-cis-gw1 is_cis_gw1
-alias of:N*T*Csamsung,exynos-is-cis-gw1C* is_cis_gw1
 alias hid:b0003g*v000018B1p00000037 hid_petalynx
 alias i2c:s2mpu14 s2mpu14_mfd
 alias platform:sec-thermistor sec_thermistor
@@ -726,6 +728,11 @@ alias of:N*T*Csamsung,s5pc100-pwm pwm_samsung
 alias of:N*T*Csamsung,s5pc100-pwmC* pwm_samsung
 alias of:N*T*Csamsung,exynos4210-pwm pwm_samsung
 alias of:N*T*Csamsung,exynos4210-pwmC* pwm_samsung
+alias of:N*T*Csamsung,exynos-is-cis-4ha is_cis_4ha
+alias of:N*T*Csamsung,exynos-is-cis-4haC* is_cis_4ha
+alias platform:exynos8825-sound exynos8825_rt5691
+alias of:N*T*Csamsung,exynos8825-rt5691 exynos8825_rt5691
+alias of:N*T*Csamsung,exynos8825-rt5691C* exynos8825_rt5691
 alias hid:b0003g*v000006A3p00000621 hid_saitek
 alias hid:b0003g*v00000738p00001705 hid_saitek
 alias hid:b0003g*v000006A3p00000CCB hid_saitek
@@ -734,11 +741,7 @@ alias hid:b0003g*v000006A3p00000CCD hid_saitek
 alias hid:b0003g*v000006A3p00000CFA hid_saitek
 alias hid:b0003g*v00000738p00001709 hid_saitek
 alias hid:b0003g*v000006A3p00000CD0 hid_saitek
-alias i2c:sec-nfc nfc_sec
-alias of:N*T*Csamsung,exynos-is-cis-hi1336 is_cis_hi1336
-alias of:N*T*Csamsung,exynos-is-cis-hi1336C* is_cis_hi1336
-alias of:N*T*Csamsung,exynos-is-cis-imx258 is_cis_imx258
-alias of:N*T*Csamsung,exynos-is-cis-imx258C* is_cis_imx258
+alias hid:b0003g*v00000738p00001713 hid_saitek
 alias of:N*T*Csamsung,hardlockup-watchdog hardlockup_watchdog
 alias of:N*T*Csamsung,hardlockup-watchdogC* hardlockup_watchdog
 alias hid:b0003g*v00001AE7p00009001 hid_speedlink
