@@ -22,5 +22,10 @@ $(call inherit-product, vendor/samsung/m34x/m34x-vendor.mk)
 
 DEVICE_PATH := device/samsung/m34x
 
+# Audio
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/audio/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
+    $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
