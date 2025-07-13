@@ -1,5 +1,5 @@
 #
-# Copyright (C) The Infinity-X Project
+# Copyright (C) The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,9 +26,17 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 DEVICE_PATH := device/samsung/m34x
 
 # Audio - Configuration
+PRODUCT_PACKAGES += mixer_paths.xml
+
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# FM Radio
 PRODUCT_PACKAGES += \
-    audio_board_info.xml \
-    mixer_paths.xml
+    FMRadio \
+    libfmjni
+
+$(call soong_config_set,libfmjni,vendor,slsi)
 
 # Init
 PRODUCT_PACKAGES += \

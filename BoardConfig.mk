@@ -29,3 +29,6 @@ BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/m34x.cfg
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
+# FM Radio
+BOARD_HAVE_SLSI_FM := true
