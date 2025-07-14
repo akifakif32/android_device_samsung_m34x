@@ -1,0 +1,9 @@
+# Device - SM-M346B1 variant
+ro.product.model=SM-M346B1
+ro.product.name=m34xdxx
+ro.product.system.model=SM-M346B1
+ro.product.system.name=m34xdxx
+ro.build.fingerprint=samsung/m34xdxx/m34x:12/SP1A.210812.016/M346B1DXU7DYE1:user/release-keys
+ro.build.description=m34xdxx-user 15 SP1A.210812.016 M346B1DXU7DYE1 release-keys
+ro.build.display.id=m34xdxx-user 15 SP1A.210812.016 M346B1DXU7DYE1 release-keys
+ro.system.build.fingerprint=samsung/m34xdxx/m34x:12/SP1A.210812.016/M346B1DXU7DYE1:user/release-keys

@@ -55,3 +55,26 @@ PRODUCT_COPY_FILES += \
     $(EMPTY_PLACEHOLDER):$(TARGET_COPY_OUT_VENDOR)/firmware/os.checked.bin \
     $(EMPTY_PLACEHOLDER):$(TARGET_COPY_OUT_VENDOR)/firmware/NPU.bin \
     $(EMPTY_PLACEHOLDER):$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin
+
+# Variant props
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/props/system_m34x/system_SM-E346B.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-E346B.prop \
+    $(LOCAL_PATH)/configs/props/system_m34x/system_SM-M346B.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-M346B.prop \
+    $(LOCAL_PATH)/configs/props/system_m34x/system_SM-M346B1.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-M346B.prop \
+    $(LOCAL_PATH)/configs/props/system_m34x/system_SM-M346B2.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-M346B2.prop \
+    $(LOCAL_PATH)/configs/props/vendor_m34x/vendor_SM-E346B.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-E346B.prop \
+    $(LOCAL_PATH)/configs/props/vendor_m34x/vendor_SM-M346B.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-M346B.prop \
+    $(LOCAL_PATH)/configs/props/vendor_m34x/vendor_SM-M346B1.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-M346B.prop \
+    $(LOCAL_PATH)/configs/props/vendor_m34x/vendor_SM-M346B2.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-M346B2.prop \
+    $(LOCAL_PATH)/configs/props/odm_m34x/odm_SM-E346B.prop:$(TARGET_COPY_OUT_ODM)/build_SM-E346B.prop \
+    $(LOCAL_PATH)/configs/props/odm_m34x/odm_SM-M346B.prop:$(TARGET_COPY_OUT_ODM)/build_SM-M346B.prop \
+    $(LOCAL_PATH)/configs/props/odm_m34x/odm_SM-M346B1.prop:$(TARGET_COPY_OUT_ODM)/build_SM-M346B.prop \
+    $(LOCAL_PATH)/configs/props/odm_m34x/odm_SM-M346B2.prop:$(TARGET_COPY_OUT_ODM)/build_SM-M346B2.prop \
+    $(LOCAL_PATH)/configs/props/product_m34x/product_SM-E346B.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-E346B.prop \
+    $(LOCAL_PATH)/configs/props/product_m34x/product_SM-M346B.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-M346B.prop \
+    $(LOCAL_PATH)/configs/props/product_m34x/product_SM-M346B1.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-M346B.prop \
+    $(LOCAL_PATH)/configs/props/product_m34x/product_SM-M346B2.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-M346B2.prop \
+    $(LOCAL_PATH)/configs/props/system_ext_m34x/system_ext_SM-E346B.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-E346B.prop \
+    $(LOCAL_PATH)/configs/props/system_ext_m34x/system_ext_SM-M346B.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-M346B.prop \
+    $(LOCAL_PATH)/configs/props/system_ext_m34x/system_ext_SM-M346B1.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-M346B.prop \
+    $(LOCAL_PATH)/configs/props/system_ext_m34x/system_ext_SM-M346B2.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-M346B2.prop
