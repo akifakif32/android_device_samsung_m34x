@@ -101,7 +101,7 @@ vendor/firmware/SM-M346B1/mfc_fw.bin|98b770d88d915f9fa5e48faaeb3d243280b5b804
 vendor/firmware/SM-M346B1/os.checked.bin|66e8cb97eaa7833c2759a43035aa9f7a5acf9191
 
 # Keymint
-vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung
+vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung;DISABLE_DEPS
 vendor/lib64/libskeymint10device.so
 vendor/lib64/libskeymint_cli.so
 
