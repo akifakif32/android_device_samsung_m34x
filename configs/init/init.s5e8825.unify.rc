@@ -1,0 +1,3 @@
+on early-init
+    # TEEgris
+    mount none /vendor/tee/SM-M346B2 /vendor/tee bind
