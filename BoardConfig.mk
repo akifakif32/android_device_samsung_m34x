@@ -20,3 +20,6 @@ include vendor/samsung/m34x/BoardConfigVendor.mk
 include device/samsung/s5e8825-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/m34x
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
