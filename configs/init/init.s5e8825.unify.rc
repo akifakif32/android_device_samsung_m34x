@@ -1,3 +1,27 @@
-on early-init
+on early-init && property:ro.boot.em.model=SM-M346B1
+    # Firmware blobs
+    mount none /vendor/firmware/SM-M346B1/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-M346B1/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-M346B1/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-M346B1/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-M346B1/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-M346B1/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-M346B1/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SM-M346B1 /vendor/tee bind
+
+on early-init && property:ro.boot.em.model=SM-M346B2
+    # Firmware blobs
+    mount none /vendor/firmware/SM-M346B2/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-M346B2/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-M346B2/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-M346B2/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-M346B2/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-M346B2/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-M346B2/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
     # TEEgris
     mount none /vendor/tee/SM-M346B2 /vendor/tee bind
+
+# Restart just to be safe.
+on boot
+    restart audioserver
