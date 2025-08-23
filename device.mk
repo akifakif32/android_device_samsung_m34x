@@ -21,3 +21,6 @@ $(call inherit-product, device/samsung/s5e8825-common/common.mk)
 $(call inherit-product, vendor/samsung/m34x/m34x-vendor.mk)
 
 DEVICE_PATH := device/samsung/m34x
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
