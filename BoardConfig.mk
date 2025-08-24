@@ -21,5 +21,8 @@ include device/samsung/s5e8825-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/m34x
 
+# Asserts
+TARGET_OTA_ASSERT_DEVICE := f34x,m34x
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop

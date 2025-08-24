@@ -1,3 +1,13 @@
+on early-init && property:ro.boot.em.model=SM-E346B
+    # Firmware blobs
+    mount none /vendor/firmware/SM-E346B/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-E346B/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-E346B/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-E346B/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-E346B/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SM-E346B /vendor/tee bind
+
 on early-init && property:ro.boot.em.model=SM-M346B
     # Firmware blobs
     mount none /vendor/firmware/SM-M346B/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
