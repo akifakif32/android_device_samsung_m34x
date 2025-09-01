@@ -1129,9 +1129,9 @@
     </path>
 
     <path name="gain-recording-dualmic">
-        <ctl name="IN2 Boost Volume" value="16" />
-        <ctl name="IN3 Boost Volume" value="16" />
-        <ctl name="STO1 ADC Capture Volume" value="47 47" />
+        <ctl name="IN2 Boost Volume" value="47" />
+        <ctl name="IN3 Boost Volume" value="47" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-recording-headset-mic">
@@ -1157,9 +1157,9 @@
     </path>
 
     <path name="gain-interview-mic">
-        <ctl name="IN2 Boost Volume" value="16" />
-        <ctl name="IN3 Boost Volume" value="16" />
-        <ctl name="STO1 ADC Capture Volume" value="47 47" />
+        <ctl name="IN2 Boost Volume" value="47" />
+        <ctl name="IN3 Boost Volume" value="47" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <!-- meeting input volume -->
@@ -1176,15 +1176,15 @@
     </path>
 
     <path name="gain-camcorder-dualmic">
-        <ctl name="IN2 Boost Volume" value="16" />
-        <ctl name="IN3 Boost Volume" value="16" />
-        <ctl name="STO1 ADC Capture Volume" value="47 47" />
+        <ctl name="IN2 Boost Volume" value="47" />
+        <ctl name="IN3 Boost Volume" value="47" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-camcorder-multi-mic">
-        <ctl name="IN2 Boost Volume" value="16" />
-        <ctl name="IN3 Boost Volume" value="16" />
-        <ctl name="STO1 ADC Capture Volume" value="47 47" />
+        <ctl name="IN2 Boost Volume" value="47" />
+        <ctl name="IN3 Boost Volume" value="47" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-camcorder-headset-mic">
@@ -1209,13 +1209,13 @@
 
     <!-- Recognition Input paths -->
     <path name="gain-recognition-mic">
-        <ctl name="IN2 Boost Volume" value="53" />
-        <ctl name="STO1 ADC Capture Volume" value="47 47" />
+        <ctl name="IN2 Boost Volume" value="72" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-recognition-2nd-mic">
-        <ctl name="IN3 Boost Volume" value="37" />
-        <ctl name="STO1 ADC Capture Volume" value="38 38" />
+        <ctl name="IN3 Boost Volume" value="55" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-recognition-headset-mic">
@@ -1239,14 +1239,14 @@
 
     <!-- bargein samsung input -->
     <path name="gain-bargein_samsung_engine-mic">
-        <ctl name="IN2 Boost Volume" value="36" />
-        <ctl name="IN3 Boost Volume" value="36" />
-        <ctl name="STO1 ADC Capture Volume" value="38 38" />
+        <ctl name="IN2 Boost Volume" value="55" />
+        <ctl name="IN3 Boost Volume" value="55" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-bargein_samsung_engine-headset-mic">
-        <ctl name="IN1 Boost Volume" value="39" />
-        <ctl name="STO1 ADC Capture Volume" value="28 28" />
+        <ctl name="IN1 Boost Volume" value="55" />
+        <ctl name="STO1 ADC Capture Volume" value="68 68" />
     </path>
 
     <path name="gain-bargein_samsung_engine-bt-sco-headset-in">
