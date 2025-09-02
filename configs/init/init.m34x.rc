@@ -1,0 +1,22 @@
+on post-fs-data
+    # Permissions for earjack
+    chown system radio /sys/class/audio/earjack/key_state
+    chown system radio /sys/class/audio/earjack/state
+    chown system radio /sys/class/audio/earjack/mic_adc
+
+    # Permissions for FM Radio
+    chown system audio /dev/radio0
+    chmod 0660 /dev/radio0
+
+on boot
+    # Permissions for fingerprint sensor
+    chmod 0660 /dev/esfp0
+    chown system system /dev/esfp0
+
+    chown system radio /sys/class/fingerprint/fingerprint/intcnt
+    chown system radio /sys/class/fingerprint/fingerprint/resetcnt
+
+on fs
+    # Permissions for LCD
+    chown system system /sys/class/lcd/panel/ecc
+    chown system system /dev/sec_display_debug
