@@ -1195,23 +1195,4 @@
         <item>998.039</item>
         <item>1000</item>
     </array>
-
-    <!-- Default screen brightness setting set.
-         Must be in the range specified by minimum and maximum. -->
-    <item type="dimen" name="config_screenBrightnessSettingDefaultFloat">0.5019608</item>
-
-    <!-- Maximum screen brightness allowed by the power manager.
-         Set this to 1.0 for maximum brightness range.
-         The user is forbidden from setting the brightness above this level. -->
-    <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
-
-    <!-- Minimum screen brightness setting allowed by power manager.
-         Set this to 0.0 to allow screen to go to minimal brightness.
-         The user is forbidden from setting the brightness below this level. -->
-    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.0</item>
-
-    <!-- Screen brightness used to dim the screen when the user activity
-         timeout expires.  May be less than the minimum allowed brightness setting
-         that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">11</integer>
 </resources>
