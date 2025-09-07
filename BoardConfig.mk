@@ -24,6 +24,9 @@ DEVICE_PATH := device/samsung/m34x
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := f34x,m34x
 
+# DTBO
+BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/m34x.cfg
+
 # SKU
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/sku/system_sku.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/sku/vendor_sku.prop
