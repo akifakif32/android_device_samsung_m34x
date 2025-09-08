@@ -1,2 +1,0 @@
-# Import variant-specific properties
-import /odm/build_${ro.boot.em.model}.prop

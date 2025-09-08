@@ -1,9 +1,0 @@
-# Device - SM-E346B variant
-ro.product.model=SM-E346B
-ro.product.name=m34xins
-ro.product.system.model=SM-E346B
-ro.product.system.name=m34xins
-ro.build.fingerprint=samsung/m34xins/m34x:12/SP1A.210812.016/E346BXXU7DYE1:user/release-keys
-ro.build.description=m34xins-user 12 SP1A.210812.016 E346BXXU7DYE1 release-keys
-ro.build.display.id=m34xins-user 12 SP1A.210812.016 E346BXXU7DYE1 release-keys
-ro.system.build.fingerprint=samsung/m34xins/m34x:12/SP1A.210812.016/E346BXXU7DYE1:user/release-keys
