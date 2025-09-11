@@ -26,19 +26,19 @@ tzsw.img_SM-M346B|b7f0d8c06660017194e76bdaf926dcd4e761738d
 uh.bin_SM-M346B|a51cba9975cd5724521d1c032de7fb5c671bb031
 up_param.bin_SM-M346B|214ef48fa4e0905563f1063e74fa10f22b378e7b
 
-# Firmware for model SM-M346B1 - from Samsung package version M346B1DXU7DYE1
+# Firmware for model SM-M346B1 - from Samsung package version M346B1DXS8DYH1
 
-fld.bin_SM-M346B1|056d9f6d426ff2a7d6a6d5ca1ddbad8fdffaff34
-harx.bin_SM-M346B1|685004ba3e2eaab295d95af09eb9b26f26d69cab
-keystorage.bin_SM-M346B1|1d59da66b26cb88eda9335c472917b6198673865
-ldfw.img_SM-M346B1|47b41b62cdcefa82cce6ea40bf365c067e45ac5f
-modem.bin_SM-M346B1|ce8f0a742eaa341791ffb7179297f2f6b340f5a3
-modem_debug.bin_SM-M346B1|1bf8b4cca77ef6f21deae67b6f2b3ae47ea333cf
-sboot.bin_SM-M346B1|3ff3ed53136f2d31b61d6cbc44563d8364908f2e
-tzar.img_SM-M346B1|ae395dbf315535f8b1084363f052e7bbf54ecb2e
-tzsw.img_SM-M346B1|2913d33c599a8a6200cf6450ce1732bfe5053aa4
-uh.bin_SM-M346B1|b54f447ca8de5a900847c03db88dfea4614662cd
-up_param.bin_SM-M346B1|39ff0a8df668a371c9b9e2d6360eb7bc445beea8
+fld.bin_SM-M346B1|cbb71481b2b085f2d983d754e3f62d31c32762d7
+harx.bin_SM-M346B1|b6adcae8557cca48bd8ef59c6410d2cd91201b8c
+keystorage.bin_SM-M346B1|271d400bd6300cdb4f14aff3c8e470a557e6666c
+ldfw.img_SM-M346B1|8288ead426dcbef5c8f53721e27728b7ae91c52c
+modem.bin_SM-M346B1|018545c6dee6ea5dac8df2a6550adefc7d306471
+modem_debug.bin_SM-M346B1|68494afda8929a9f2e051c17a519ec44582b5f0f
+sboot.bin_SM-M346B1|80cbab598cd235bd2c71a52d762ef0258729b807
+tzar.img_SM-M346B1|7fc11a4d85f346f1743b0734f5217a834d0bc4fb
+tzsw.img_SM-M346B1|e3ac13f9e1e7e54e6644c25f1073ab4ff952875c
+uh.bin_SM-M346B1|308a6cfc7054ef56a773de8cc9a3460bdc01ef0d
+up_param.bin_SM-M346B1|4ddf6461077a99959c2bae8784f5bf2eb07f16e6
 
 # Firmware for model SM-M346B2 - from Samsung package version M346B2XUS8DYH1
 
@@ -60,5 +60,5 @@ models|361d45749a9934265c7ac9d4d8b9604ba2991d22
 # Files containing Samsung package version for supported models
 version_SM-E346B|c862a72225501214c365ae5df6a6f7df75861bec
 version_SM-M346B|e448d24d561353baac7e7de27ebe9197d3783dd4
-version_SM-M346B1|89c5c7802a0301a4eb308fed49102bb1b7ea7743
+version_SM-M346B1|716771ea5a318bcf519c02d19c308946eb52f5b5
 version_SM-M346B2|a26e8fb4aed29e1b947ac85a81479aa2c66748f2
