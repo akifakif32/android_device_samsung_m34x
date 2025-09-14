@@ -9,7 +9,6 @@ sboot.bin_SM-E346B|a8401546cc7c32d5fd62b7972f1af1403eff36a3
 tzar.img_SM-E346B|9b0164c5710f7c97fe134f07f5141c2337df3e02
 tzsw.img_SM-E346B|538b68fd1512432a9353b3c139aaeaf65a921c9c
 uh.bin_SM-E346B|48ef0b7c6b6f9622dede6604ea652983dbf0f306
-up_param.bin_SM-E346B|90a274e4b9119fff04f5d5048507e417cc709c7e
 
 # Firmware for model SM-M346B - from Samsung package version M346BXXS8DYH1
 fld.bin_SM-M346B|d7df5c70f4eff7e9a83f1782bb3dea4410ae255a
@@ -22,7 +21,6 @@ sboot.bin_SM-M346B|31b8c05b201439d891bcc5b21392ec74d16a188f
 tzar.img_SM-M346B|5ae1e3711697a383cbca7a1eda76d5c48b3132a6
 tzsw.img_SM-M346B|b7f0d8c06660017194e76bdaf926dcd4e761738d
 uh.bin_SM-M346B|a51cba9975cd5724521d1c032de7fb5c671bb031
-up_param.bin_SM-M346B|214ef48fa4e0905563f1063e74fa10f22b378e7b
 
 # Firmware for model SM-M346B1 - from Samsung package version M346B1DXS8DYH1
 fld.bin_SM-M346B1|cbb71481b2b085f2d983d754e3f62d31c32762d7
@@ -35,7 +33,6 @@ sboot.bin_SM-M346B1|80cbab598cd235bd2c71a52d762ef0258729b807
 tzar.img_SM-M346B1|7fc11a4d85f346f1743b0734f5217a834d0bc4fb
 tzsw.img_SM-M346B1|e3ac13f9e1e7e54e6644c25f1073ab4ff952875c
 uh.bin_SM-M346B1|308a6cfc7054ef56a773de8cc9a3460bdc01ef0d
-up_param.bin_SM-M346B1|4ddf6461077a99959c2bae8784f5bf2eb07f16e6
 
 # Firmware for model SM-M346B2 - from Samsung package version M346B2XUS8DYH1
 fld.bin_SM-M346B2|123858d53acfb2e87c42336664084447d0cb265d
@@ -48,7 +45,6 @@ sboot.bin_SM-M346B2|4942a741e52fc70eec740163f1cf6d893ca7d53a
 tzar.img_SM-M346B2|2ef37ae167337d885598b317c8caded8142dfd0e
 tzsw.img_SM-M346B2|0c957ddd5e1bf4f4602bb747104f36cc5f50e36a
 uh.bin_SM-M346B2|2887c6f638a31b49d85cbbdce51d9b94547f841b
-up_param.bin_SM-M346B2|a27140ce64d9408314e171b6433cacd1d901adc5
 
 # File containing the supported models, one per line
 models|361d45749a9934265c7ac9d4d8b9604ba2991d22
