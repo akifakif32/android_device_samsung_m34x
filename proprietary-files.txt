@@ -1,6 +1,6 @@
 # Proprietary files - from Samsung package version M346B2XUS8DYH1, unless pinned
 
-# Audio Firmware
+# Audio - Firmware
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
 vendor/firmware/APDV_AUDIO_SLSI.bin
 vendor/firmware/AP_AUDIO_SLSI.bin
@@ -11,29 +11,29 @@ vendor/firmware/abox_tplg.conf
 vendor/firmware/calliope_dram.bin
 vendor/firmware/sb_music.bin
 
-# Audio Firmware
+# Audio - Firmware - for SM-M346B2
 vendor/firmware/calliope_sram.bin:vendor/firmware/SM-M346B2/calliope_sram.bin
 vendor/firmware/vts.bin:vendor/firmware/SM-M346B2/vts.bin
 
-# Audio Firmware - from SM-E346B - E346BXXS8DYH1
+# Audio - Firmware - from SM-E346B - E346BXXS8DYH1
 vendor/firmware/SM-E346B/calliope_sram.bin|83d411aeffc4d574615f9f8df5216ed1a3d60507
 vendor/firmware/SM-E346B/vts.bin|6db84cbfef6532b80ae7402e4a263e2c4a55faf2
 
-# Audio Firmware - from SM-M346B - M346BXXS8DYH1
+# Audio - Firmware - from SM-M346B - M346BXXS8DYH1
 vendor/firmware/SM-M346B/calliope_sram.bin|e3f9f3e1c59c908e7cf3550e41add3add902eac1
 vendor/firmware/SM-M346B/vts.bin|96e341d5dfa85fe49ef346e22bdd44a0fc11162d
 
-# Audio Firmware - from SM-M346B1 - M346B1DXS8DYH1
+# Audio - Firmware - from SM-M346B1 - M346B1DXS8DYH1
 vendor/firmware/SM-M346B1/calliope_sram.bin|690578beb25ee80bc2515f9404eb051a00418bd1
 vendor/firmware/SM-M346B1/vts.bin|568003aef79419c2a6cad1250d675519f750a1cc
 
-# Bluetooth Firmware
+# Bluetooth - Firmware
 vendor/etc/wifi/mx140_bt.hcf
 
 # Camera
 vendor/lib64/hw/camera.s5e8825.so
 
-# Camera dependencies
+# Camera - Dependencies
 vendor/lib64/libMERTA.so
 vendor/lib64/libexynoscamera_merta_plugin.so
 vendor/lib64/libexynoscamera_swlme_plugin.so
@@ -42,7 +42,7 @@ vendor/lib64/liblmecpu.so
 vendor/lib64/libsec2lsi_conversion.so
 vendor/lib64/libswlme.so
 
-# Patched camera HAL
+# Camera - Patched HAL
 vendor/lib64/libexynoscamera3.so|9e152a468d18708f8a5487a4adfe5952f824793a|7a01a904ae30f46b4758de6ddf4ecccf24002d6f
 
 # Fingerprint
@@ -51,6 +51,7 @@ vendor/lib64/libbauthtzcommon.so
 
 # Firmware
 vendor/firmware/abov/a96t396_m34x_main.bin
+vendor/firmware/nfc/st21nfc_fw.bin
 vendor/firmware/SetMultiCalInfo.bin
 vendor/firmware/dual_cal_wide_swide.bin
 vendor/firmware/gt9895_m34x.bin
@@ -78,7 +79,7 @@ vendor/firmware/tfa98xx.cnt
 vendor/firmware/txse1.bin
 vendor/firmware/txse2.bin
 
-# Firmware
+# Firmware - for SM-M346B2
 vendor/firmware/NPU.bin:vendor/firmware/SM-M346B2/NPU.bin
 vendor/firmware/mfc_fw.bin:vendor/firmware/SM-M346B2/mfc_fw.bin
 vendor/firmware/os.checked.bin:vendor/firmware/SM-M346B2/os.checked.bin
@@ -103,19 +104,16 @@ vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.ha
 vendor/lib64/libskeymint10device.so
 vendor/lib64/libskeymint_cli.so
 
-# Nfc
-vendor/firmware/nfc/st21nfc_fw.bin
-
-# Ramdisk firmware
-vendor_boot/ramdisk/vendor/firmware/gt9895_m34x.bin:vendor_ramdisk/vendor/firmware/gt9895_m34x.bin
+# Ramdisk - Firmware
+vendor/firmware/gt9895_m34x.bin:vendor_ramdisk/vendor/firmware/gt9895_m34x.bin
 
 # Recovery firmware
-vendor_boot/ramdisk/vendor/firmware/gt9895_m34x.bin:recovery/root/vendor/firmware/gt9895_m34x.bin
+vendor/firmware/gt9895_m34x.bin:recovery/root/vendor/firmware/gt9895_m34x.bin
 
 # RIL
 vendor/etc/floating_feature.xml
 
-# TEEgris firmware
+# TEEgris firmware - for SM-M346B2
 vendor/tee/driver/00000000-0000-0000-0000-494363447256:vendor/tee/SM-M346B2/driver/00000000-0000-0000-0000-494363447256
 vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374:vendor/tee/SM-M346B2/driver/00000000-0000-0000-0000-4d53546d7374
 vendor/tee/driver/00000000-0000-0000-0000-53626f786476:vendor/tee/SM-M346B2/driver/00000000-0000-0000-0000-53626f786476
@@ -271,7 +269,7 @@ vendor/lib64/libstork_shared.so
 vendor/lib64/libvkservice.so
 vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@2.0.so
 
-# Wi-Fi
+# WiFi
 vendor/etc/wifi/mx140_common.hcf
 vendor/etc/wifi/mx140_t_wlan.hcf
 vendor/etc/wifi/mx140_t_wlan_t.hcf
