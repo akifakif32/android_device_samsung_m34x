@@ -2,6 +2,7 @@
 
 # Audio - Firmware
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
+vendor/firmware/APBiBF_AUDIO_SLSI.bin
 vendor/firmware/APDV_AUDIO_SLSI.bin
 vendor/firmware/AP_AUDIO_SLSI.bin
 vendor/firmware/SoundBoosterParam.bin
