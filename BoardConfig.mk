@@ -1,5 +1,5 @@
 #
-# Copyright (C) The LineageOS Project
+# Copyright (C) The Infinity-X Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,3 +26,6 @@ TARGET_OTA_ASSERT_DEVICE := f34x,m34x
 
 # DTBO
 BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/m34x.cfg
+
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
