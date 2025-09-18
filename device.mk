@@ -30,6 +30,14 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     $(DEVICE_PATH)/configs/audio/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml
+    
+# Infinity Flags
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.product.marketname=Samsung Galaxy M34 5G \
+    ro.infinity.soc=Exynos 1280 \
+    ro.infinity.battery=6000 mAh \
+    ro.infinity.display=1080 x 2340, 120 Hz \
+    ro.infinity.camera=50MP + 8MP + 2MP
 
 # Init
 PRODUCT_COPY_FILES += \
