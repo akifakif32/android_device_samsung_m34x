@@ -262,14 +262,6 @@ vendor/tee/SM-M346B1/00000000-0000-0000-0000-6d706f667376|904a3966f073af17610037
 vendor/tee/SM-M346B1/00000000-0000-0000-0000-6d73745f5441|76fdd5f686204522264c2520b845e8232ec57037
 vendor/tee/SM-M346B1/ffffffff-0000-0000-0000-000000000030|abe5efa85ec43ffe220dd5c4363be4fe6e796265
 
-# VaultKeeper
-vendor/bin/vaultkeeperd
-vendor/bin/vendor.samsung.hardware.security.vaultkeeper@2.0-service
-vendor/etc/vintf/manifest/vaultkeeper_manifest.xml
-vendor/lib64/libstork_shared.so
-vendor/lib64/libvkservice.so
-vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@2.0.so
-
 # WiFi
 vendor/etc/wifi/mx140_common.hcf
 vendor/etc/wifi/mx140_t_wlan.hcf
