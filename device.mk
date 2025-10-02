@@ -32,9 +32,9 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml
 
 # Init
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/init/init.m34x.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.m34x.rc \
-    $(DEVICE_PATH)/configs/init/init.m34x.unify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.m34x.unify.rc
+PRODUCT_PACKAGES += \
+    init.m34x.rc \
+    init.m34x.unify.rc
 
 # Nfc
 PRODUCT_PACKAGES += android.hardware.nfc@1.2-service.st
