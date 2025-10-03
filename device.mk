@@ -25,23 +25,24 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 DEVICE_PATH := device/samsung/m34x
 
-# Audio
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/audio/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
-    $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
-    $(DEVICE_PATH)/configs/audio/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml
+# Audio - Configuration
+PRODUCT_PACKAGES += \
+    audio_board_info.xml \
+    mixer_gains.xml \
+    mixer_paths.xml
 
 # Init
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/init/init.m34x.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.m34x.rc \
-    $(DEVICE_PATH)/configs/init/init.m34x.unify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.m34x.unify.rc
+PRODUCT_PACKAGES += \
+    init.m34x.rc \
+    init.m34x.unify.rc
 
 # Nfc
 PRODUCT_PACKAGES += android.hardware.nfc@1.2-service.st
 
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    $(DEVICE_PATH)/configs/nfc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf
+# Nfc - Configuration
+PRODUCT_PACKAGES += \
+    libnfc-nci.conf \
+    libnfc-hal-st.conf
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
@@ -55,3 +56,6 @@ PRODUCT_COPY_FILES += \
     $(EMPTY_PLACEHOLDER):$(TARGET_COPY_OUT_VENDOR)/firmware/os.checked.bin \
     $(EMPTY_PLACEHOLDER):$(TARGET_COPY_OUT_VENDOR)/firmware/NPU.bin \
     $(EMPTY_PLACEHOLDER):$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
