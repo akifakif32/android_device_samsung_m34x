@@ -26,7 +26,7 @@ namespace_imports = [
 ]
 
 
-def lib_fixup_device_dep(lib: str, partition: str):
+def lib_fixup_device_dep(lib: str, *_):
     return f'//device/samsung/s5e8825-common/shims/stub:{lib}'
 
 
@@ -47,10 +47,20 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .replace_needed('android.hardware.security.keymint-V1-ndk_platform.so',
             'android.hardware.security.keymint-V4-ndk.so')
+        .replace_needed('android.hardware.security.secureclock-V1-ndk_platform.so',
+            'android.hardware.security.secureclock-V1-ndk.so')
+        .replace_needed('android.hardware.security.sharedsecret-V1-ndk_platform.so',
+             'android.hardware.security.sharedsecret-V1-ndk.so')
+        .add_needed('android.hardware.security.rkp-V3-ndk.so')
+        .replace_needed('libcrypto.so', 'libcrypto-tm.so')
+        .add_needed('libshim_crypto.so'),
+    'vendor/bin/hw/android.hardware.security.keymint-service.samsung': blob_fixup()
+        .replace_needed('android.hardware.security.keymint-V1-ndk_platform.so',
+            'android.hardware.security.keymint-V3-ndk.so')
         .replace_needed('android.hardware.security.keymint-V1-ndk_platform',
-            'android.hardware.security.keymint-V4-ndk')
+            'android.hardware.security.keymint-V3-ndk')
         .replace_needed('android.hardware.security.keymint-V1-ndk',
-            'android.hardware.security.keymint-V4-ndk')
+            'android.hardware.security.keymint-V3-ndk')
         .replace_needed('android.hardware.security.secureclock-V1-ndk_platform.so',
             'android.hardware.security.secureclock-V1-ndk.so')
         .replace_needed('android.hardware.security.sharedsecret-V1-ndk_platform.so',
