@@ -16,17 +16,17 @@ vendor/firmware/sb_music.bin
 vendor/firmware/calliope_sram.bin:vendor/firmware/SM-M346B2/calliope_sram.bin
 vendor/firmware/vts.bin:vendor/firmware/SM-M346B2/vts.bin
 
-# Audio - Firmware - from SM-E346B - E346BXXS8DYH1
-vendor/firmware/SM-E346B/calliope_sram.bin|83d411aeffc4d574615f9f8df5216ed1a3d60507
-vendor/firmware/SM-E346B/vts.bin|6db84cbfef6532b80ae7402e4a263e2c4a55faf2
+# Audio - Firmware - from SM-E346B - E346BXXSCEZD8
+vendor/firmware/SM-E346B/calliope_sram.bin|9660942c265ba5973151a097bc0439d034463605
+vendor/firmware/SM-E346B/vts.bin|42cf995be598970c0b5a5cd6c5eb7f343a141315
 
-# Audio - Firmware - from SM-M346B - M346BXXS8DYH1
-vendor/firmware/SM-M346B/calliope_sram.bin|e3f9f3e1c59c908e7cf3550e41add3add902eac1
-vendor/firmware/SM-M346B/vts.bin|96e341d5dfa85fe49ef346e22bdd44a0fc11162d
+# Audio - Firmware - from SM-M346B - M346BXXSCEZD8
+vendor/firmware/SM-M346B/calliope_sram.bin|47bbb2338be8b741be0e6ddbf69f54e5fbc65756
+vendor/firmware/SM-M346B/vts.bin|90f80325e9604c10017c4a9236e900fa7fa3ed1a
 
-# Audio - Firmware - from SM-M346B1 - M346B1DXS8DYH1
-vendor/firmware/SM-M346B1/calliope_sram.bin|690578beb25ee80bc2515f9404eb051a00418bd1
-vendor/firmware/SM-M346B1/vts.bin|568003aef79419c2a6cad1250d675519f750a1cc
+# Audio - Firmware - from SM-M346B1 - M346B1DXSCEZD8
+vendor/firmware/SM-M346B1/calliope_sram.bin|92b0fb16db77f221c8c663cfad6015ab536df22c
+vendor/firmware/SM-M346B1/vts.bin|0e573fc48a3739bca9ffced8efd72cd753339a91
 
 # Audio - Firmware - Placeholders
 vendor/firmware/calliope_sram.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
@@ -98,20 +98,20 @@ vendor/firmware/NPU.bin:vendor/firmware/SM-M346B2/NPU.bin
 vendor/firmware/mfc_fw.bin:vendor/firmware/SM-M346B2/mfc_fw.bin
 vendor/firmware/os.checked.bin:vendor/firmware/SM-M346B2/os.checked.bin
 
-# Firmware - from SM-E346B - E346BXXS8DYH1
-vendor/firmware/SM-E346B/NPU.bin|248a7de022bda7149a1e748c095aae8b588cae8a
-vendor/firmware/SM-E346B/mfc_fw.bin|a793233913023943d067203aac94907b53cd4c2b
-vendor/firmware/SM-E346B/os.checked.bin|baa0f7b8f6155894f9410106866b3c1b6b0eae55
+# Firmware - from SM-E346B - E346BXXSCEZD8
+vendor/firmware/SM-E346B/NPU.bin|63ac4a594440c4fc56cddc10bb917894fe1f299c
+vendor/firmware/SM-E346B/mfc_fw.bin|60787ed04a7966dcab3b02b339d25cbc4d9fe75b
+vendor/firmware/SM-E346B/os.checked.bin|87a05a3d9d58835dac983c389d64e92486347d3e
 
-# Firmware - from SM-M346B - M346BXXS8DYH1
-vendor/firmware/SM-M346B/NPU.bin|4f9c4711c41aec3e35de3f83b0dc543937c57321
-vendor/firmware/SM-M346B/mfc_fw.bin|21d6c60adea0f48f581f749791a18eb6a3e71289
-vendor/firmware/SM-M346B/os.checked.bin|b2d7dbddeba725992d5c8ce3a1c8adc5de8d4f71
+# Firmware - from SM-M346B - M346BXXSCEZD8
+vendor/firmware/SM-M346B/NPU.bin|cb2d13c4fcfa905291ee7828ab519e069ad0af7d
+vendor/firmware/SM-M346B/mfc_fw.bin|b3d90555445b14006369a339fb001dbde9cd45d5
+vendor/firmware/SM-M346B/os.checked.bin|4120a890f709876442acf0c5825091621380a89e
 
-# Firmware - from SM-M346B1 - M346B1DXS8DYH1
-vendor/firmware/SM-M346B1/NPU.bin|3fffa6c90d362b389d5120a6ae45c43f089789cc
-vendor/firmware/SM-M346B1/mfc_fw.bin|98b770d88d915f9fa5e48faaeb3d243280b5b804
-vendor/firmware/SM-M346B1/os.checked.bin|66e8cb97eaa7833c2759a43035aa9f7a5acf9191
+# Firmware - from SM-M346B1 - M346B1XXSCEZD8
+vendor/firmware/SM-M346B1/NPU.bin|548b4de3886c6d55489d3df14e6f438480f1ff2e
+vendor/firmware/SM-M346B1/mfc_fw.bin|0a545c67e33e6f3286e33ad708f623e5f67f26ab
+vendor/firmware/SM-M346B1/os.checked.bin|4a63c61ead6934c0086282b53faf4fd31d357b5e
 
 # Firmware - Placeholders
 vendor/firmware/NPU.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
