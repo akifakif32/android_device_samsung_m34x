@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version M346B2XUS8EYJ2, unless pinned
+# Proprietary files - from Samsung package version M346B2XUSCEZD8, unless pinned
 
 # Audio - Firmware
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
@@ -56,8 +56,8 @@ vendor/lib64/liblmecpu.so
 vendor/lib64/libsec2lsi_conversion.so
 vendor/lib64/libswlme.so
 
-# Camera - Patched HAL
-vendor/lib64/libexynoscamera3.so|8289e5008a627ee8d6b830e7f7320abdd566e062|726470ac5077722fea686fbdde10c11cf3182584
+# Camera
+vendor/lib64/libexynoscamera3.so
 
 # Fingerprint - Dependencies
 vendor/lib64/libbauthserver.so
